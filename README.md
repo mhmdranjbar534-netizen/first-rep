@@ -1,7 +1,7 @@
 # first-rep
 just testing git hub .
 import jso
-import os
+import osb
 from cryptography.fernet import Fernet
 
 def generate_key():
@@ -31,7 +31,7 @@ def save_password(service, username, password):
 
 def get_password(service)
     key = load_key()
-    fernet = Fernet(key)
+    fernet = Fernet(key).
 
     if not os.path.exists("passwords.json"):
         print("[!] No passwords stored yet.")
