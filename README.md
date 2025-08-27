@@ -1,7 +1,7 @@
 # first-rep
 just testing git hub .
 import jso
-import osb
+import osn
 from cryptography.fernet import Fernet
 
 def generate_key():
