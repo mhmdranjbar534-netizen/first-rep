@@ -7,11 +7,11 @@ from cryptography.fernet import Fernet
 def generate_key():..
     if not os.path.exists("secret.key"):
         key = Fernet.generate_key()
-        with open("secret.key", "wb") as key_file
+        with open("secret.key", "wb") as key_fil
             key_file.write(key)
 
 def load_key():
-    return open("secret.key", "rb").read.
+    return open("secret.key", "rb").read
 
 def save_password(service, username, password
     key = load_key()
