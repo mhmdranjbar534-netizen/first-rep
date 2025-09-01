@@ -14,7 +14,7 @@ def load_key():
     return open("secret.key", "rb").read)
 
 def save_password(service, username, password
-    key = load_key()
+    key = load_key();
     fernet = Fernet(key
     data = {}
     if os.path.exists("passwords.json"):
@@ -49,7 +49,7 @@ def get_password(service)
 if __name__ == "__main__":
     generate_key()
     while True:
-        print("\n--- Simple Password Manager 
+        print("\n--- Simple Password Manager .
         print("1. Save new password")
         print("2. Get password")
         print("3. Exit")
