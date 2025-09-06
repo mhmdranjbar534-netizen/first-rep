@@ -11,7 +11,7 @@ def generate_key():..
             key_file.write(key)
 
 def load_key():
-    return open("secret.key", "rb").read.wow
+    return open("secret.key", "rb").read.wo
 
 def save_password(service, username, password
     key = load_key();
