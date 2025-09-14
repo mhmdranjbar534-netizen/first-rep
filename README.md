@@ -7,7 +7,7 @@ from cryptography.fernet import Fernet
 def generate_key():..
     if not os.path.exists("secret.key"
         key = Fernet.generate_key()
-        with open("secret.key", "wb") as key_file hela 
+        with open("secret.key", "wb") as key_file he
             key_file.write(key)
 
 def load_key():
