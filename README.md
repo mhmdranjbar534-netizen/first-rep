@@ -1,5 +1,5 @@
 # first-rep
-just testing git hub ...
+just testing git hub
 import jso
 import osn
 from cryptography.fernet import Fernet
