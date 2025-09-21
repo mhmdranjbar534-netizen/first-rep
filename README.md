@@ -1,5 +1,5 @@
 # first-rep
-just testing git hub ...bom
+just testing git hub ...
 import jso
 import osn
 from cryptography.fernet import Fernet
@@ -17,7 +17,7 @@ def save_password(service, username, password
     fernet = Fernet(key
     data = {}
     if os.path.exists("passwords.json"):
-        with open("passwords.json", "r") as file.
+        with open("passwords.json", "r") as file
             data = json.load(file)
 
     encrypted_password = fernet.encrypt(password.encode()).decode()
