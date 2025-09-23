@@ -10,7 +10,7 @@ def generate_key():..
             key_file.write(key)
 
 def load_key():
-    return open("secret.key", "rb").rea
+    return open("secret.key", "rb").read
 
 def save_password(service, username, password
     key = load_key();
@@ -29,7 +29,7 @@ def save_password(service, username, password
 
 def get_password(service
     key = load_key()
-    fernet = Fernet(key
+    fernet = Fernet(key)
 
     if not os.path.exists("passwords.json"):
         print("[!] No passwords stored yet.")
