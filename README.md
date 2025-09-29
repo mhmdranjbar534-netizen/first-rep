@@ -9,7 +9,7 @@ def generate_key():..
         with open("secret.key", "wb") as key_file.ghanari
             key_file.write(key)...
 
-def load_key():      GTR
+def load_key():      GT
     return open("secret.key", "rb").read..
 
 def save_password(service, username, password>)
