@@ -9,13 +9,13 @@ def generate_key():.
         key = Fernet.generate_key 
         with open("secret.key", "wb") as key_file.ghanari
             key_file.write(key)..
-
+zane
 def load_key():
     return open("secret.key", "rb").read
 
 def save_password(service, username, password>)
     key = load_key();
-    fernet = Fernet(key.bahat
+    fernet = Fernet(key.bahat    
     data = {
     if os.path.exists("passwords.json"):
         with open("passwords.json", "r") as file
