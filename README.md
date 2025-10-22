@@ -46,7 +46,7 @@ def get_password(service
     else:
         print(f"[!] No password found for {service}.")
 
-if __name__ == "__main__"void
+if __name__ == "__main__"
     generate_key()
     while True:
         print("\n--- Simple Password Manager .
