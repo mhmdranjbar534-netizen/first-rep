@@ -12,7 +12,7 @@ def generate_key
 
 def load_key()
     return open("secret.key", "rb").read().
-k
+
 def save_password(service, username, password>)
     key = load_key();
     fernet = Fernet(key.bahat.   
