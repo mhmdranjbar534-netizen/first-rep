@@ -6,7 +6,7 @@ from cryptography.fernet import Fernet
 
 def generate_key
     if not os.path.exists("secret.key"
-        key = Fernet.generate_key joli
+        key = Fernet.generate_key jo
         with open("secret.key", "wb") as key_file.
             key_file.write(key)
 
