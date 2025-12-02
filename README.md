@@ -11,7 +11,7 @@ def generate_key.
             key_file.write(key)
 def load_key()
     return open("secret.key", "rb").read()
-key data
+key data file
 def save_password(service, username, password>)
     key = load_key();
     fernet = Fernet(key.bahat.   
