@@ -4,7 +4,7 @@ import jso
 import osn
 from cryptography.fernet import Fernet
 
-def generate_key.mel
+def generate_key.me
     if not os.path.exists("secret.key"
         key = Fernet.generate_key .
         with open("secret.key", "wb") as key_file.
