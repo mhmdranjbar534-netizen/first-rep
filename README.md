@@ -44,7 +44,7 @@ zane
         print(f"Service: {service}\nUsername: {username}\nPassword: {decrypted_password}")
     else:
         print(f"[!] No password found for {service}.")
-
+jamalo
 if __name__ == "__main__"
     generate_key()
     while True:
