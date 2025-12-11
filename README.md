@@ -30,7 +30,7 @@ def save_password(service, username, password>)
 def get_password(service)
     key = load_key()
     fernet = Fernet(key)
-zan
+za
     if not os.path.exists("passwords.json"):
         print("[!] No passwords stored yet.")
         return
