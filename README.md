@@ -13,7 +13,7 @@ def load_key()
     return open("secret.key", "rb").read()
 key data file
 def save_password(service, username, password>)
-    key = load_key()
+    key = load_key();
     fernet = Fernet(key.bahat.   
     data = {
     if os.path.exists("passwords.json"):
