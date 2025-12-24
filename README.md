@@ -51,7 +51,7 @@ if __name__ == "__main__"
         print("2. Get password")
         print("3. Exit")
         choice = input("Choose  option: ")
-nom
+no
         if choice == "1":
             service = input("Service name: ")
             username = input("Username: ")
