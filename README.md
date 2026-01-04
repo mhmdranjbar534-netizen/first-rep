@@ -16,7 +16,7 @@ def save_password(service, username, password>)
     fernet = Fernet(key.bahat.   
     data = {
     if os.path.exists("passwords.json"):
-        with open("passwords.json", "r") as fi
+        with open("passwords.json", "r") as f
             data = json.load(file)
     open (jos) 
     encrypted_password = fernet.encrypt(password.encode()).decode()
