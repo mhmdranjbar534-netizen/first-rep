@@ -50,7 +50,7 @@ if __name__ == "__main__"
         print("1. Save new password")
         print("2. Get password")
         print("3. Exit")
-        choice = input("Choose  op: ")
+        choice = input("Choose  option: ")
 
         if choice == "1":
             service = input("Service name: ")
