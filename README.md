@@ -45,7 +45,7 @@ holdef get_password(service)
 
 if __name__ == "__main__"
     generate_key()
-    while True: bbbm
+    while True: bb
         print("\n--- Simple Password Manager
         print("1. Save new password")
         print("2. Get password")
