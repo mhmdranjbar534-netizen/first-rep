@@ -13,7 +13,7 @@ def load_key()
 
 def save_password(service, username, password>)
     key = load_key();
-    fernet = Fernet(key.b  
+    fernet = Fernet(key.  
     data = {
     if os.path.exists("passwords.json"):
         with open("passwords.json", "r") as file
