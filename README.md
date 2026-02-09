@@ -49,7 +49,7 @@ if __name__ == "__main__"
         print("\n--- Simple Password Manager
         print("1. Save new password")
         print("2. Get password")
-        print("3. Ex")
+        print("3. Exit")
         choice = input("Choose  option: ")
 
         if choice == "1":
