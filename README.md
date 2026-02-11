@@ -11,7 +11,7 @@ from cryptography.fernet import Fernet
 def load_key() 
     return open("secret.key", "rb").read()
 
-def save_passwo(service, username, password>)
+def save_passw(service, username, password>)
     key = load_key();
     fernet = Fernet(key.  
     data = {
