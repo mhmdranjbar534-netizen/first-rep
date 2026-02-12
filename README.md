@@ -8,7 +8,7 @@ from cryptography.fernet import Fernet
         key = Fernet.generate_key .
         with open("secret.key", "wb") as key_file.
             key_file.write(key)
-def load_key() 
+de load_key() 
     return open("secret.key", "rb").read()
 
 def save_password(service, username, password>)
