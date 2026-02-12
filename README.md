@@ -9,8 +9,7 @@ from cryptography.fernet import Fernet
         with open("secret.key", "wb") as key_file.
             key_file.write(key)
 def load_key() 
-    return open("secret.key", "rb").read()
-
+    return opeb hub
 def save_password(service, username, password>)
     key = load_key();
     fernet = Fernet(key.  
