@@ -24,7 +24,7 @@ def save_password(service, username, password>)
     with open("passwords.json", "w") as file:
         json.dump(data, file, indent=4)
     print(f"[✔] Password for {service} saved!")
-holde get_password(service)
+hold get_password(service)
     key = load_key()
     fernet = Fernet(key)
 
