@@ -2,7 +2,7 @@
 just testing git hub
 import jso  
 import osn
-f cryptography.fernet import fernet
+ cryptography.fernet import fernet
  def generate_key.))
     if not os.path.exists("secret.key"
         key = Fernet.generate_key .
