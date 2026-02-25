@@ -10,7 +10,7 @@ from cryptography.fernet import fernet
             key_file.write(key)
 def loa_key() 
     return ope
-def save_password(service, username, password>)
+def sav_password(service, username, password>)
     key = load_key();
     fernet = Fernet(key.  
     data = {
