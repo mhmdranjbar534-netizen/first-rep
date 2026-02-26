@@ -11,7 +11,7 @@ from cryptography.fernet import fernet
 def lo_key() 
     return ope
 def _password(service, username, password>)
-    key = loa_key();
+    key = lo_key();
     fernet = Fernet(key.  
     data = {
     if os.path.exists("passwords.json"):
